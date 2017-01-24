@@ -12,7 +12,6 @@ class GoGui < Formula
   end
 
   depends_on :ant => :build
-  depends_on :java => "1.6"
 
   resource "quaqua" do
     url "http://www.randelshofer.ch/quaqua/files/quaqua-5.4.1.nested.zip"
